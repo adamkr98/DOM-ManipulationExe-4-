@@ -24,5 +24,10 @@ let title2 = document.querySelector(".TheThird");
     title3.innerHTML = tempContent;
 
 
+////////////////////////////////////////////
+        //Time to delete the section[ 2 ]//
+///////////////////////////////////////////
 
-    
+console.log(section[ 2 ]);
+
+section[ 2 ].remove();
