@@ -1,3 +1,12 @@
+let ol = document.querySelector("ol");
+
+let tempContent1 = ol.firstElementChild;
+let tempContent2 = ol.lastElementChild;
+ol.lastChild.replaceWith(tempContent1);
+ol.firstElementChild.replaceWith(tempContent2);
+
+
+
 let section = document.querySelectorAll("section");//we create an 'array' comporting 3 sections and all of its children
 
 let firstChild2section = section[ 1 ].querySelector(':first-child');
